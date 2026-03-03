@@ -40,7 +40,8 @@ GO--=====================================================--3. Jointures entre Ta
 SELECT TableA_ID, TableB_ID
 FROM dbo.TableA
 LEFT JOIN dbo.TableB
-ON dbo.TableA.TableA_ID = dbo.TableB.TableB_ID;--RIGHT JOIN : toutes les lignes de TableB
+ON dbo.TableA.TableA_ID = dbo.TableB.TableB_ID;
+--RIGHT JOIN : toutes les lignes de TableB
 SELECT TableA_ID, TableB_ID
 FROM dbo.TableA
 RIGHT JOIN dbo.TableB
